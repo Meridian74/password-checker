@@ -44,7 +44,7 @@ public class Main {
             int passwordStrength = calculator.calculate(validators, password);
             System.out.println("A jelszó erőssége: " + passwordStrength);
         } catch (InvalidPasswordException  e) {
-            System.out.println("Hiba történt a jelszó ellenőrzésekor. " + e.getMessage());;
+            System.out.println("Hiba történt a jelszó ellenőrzésekor. " + e.getMessage());
         }
 
     }

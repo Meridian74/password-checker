@@ -1,6 +1,5 @@
 package loc.exercise.pwdchecker.validators;
 
-import loc.exercise.pwdchecker.config.PasswordConfig;
 import loc.exercise.pwdchecker.exceptions.InvalidPasswordException;
 import loc.exercise.pwdchecker.exceptions.MissingPasswordException;
 
